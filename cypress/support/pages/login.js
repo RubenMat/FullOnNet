@@ -1,9 +1,13 @@
 export class LoginPage {
 
     constructor() {
-        this.url = 'https://tivify.tv/login',
+        this.url = '/login',
         this.cookies = '#acceptAllMain',
+        this.userBox = '#username',
+        this.passBox = '#password',
+        this.loginBtn = '[data-cy="iniciarsesión"]'
         this.guestUserBtn = '[data-cy="inicioanónimo"]',
+        this.forgotPassBtn = '#login_rememberPasswordBtn',
         this.adVideo = '.video-parent-container',
         this.modalBtn = '.modal-btn'
     }
